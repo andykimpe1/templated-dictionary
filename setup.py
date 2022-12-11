@@ -14,7 +14,7 @@ setuptools.setup(
         "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
         "Operating System :: OS Independent",
     ],
-    license='GPLv2+',
+    license='GPL-2.0-or-later',
     packages=['templated_dictionary'],
     include_package_data=True,
     zip_safe=False,
