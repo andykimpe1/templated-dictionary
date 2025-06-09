@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="templated-dictionary",
-    version="1.5",
+    version="1.6",
     author="Miroslav Suchý",
     author_email="msuchy@redhat.com",
     description="Dictionary with Jinja2 expansion",

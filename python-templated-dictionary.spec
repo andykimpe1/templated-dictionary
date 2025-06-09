@@ -6,8 +6,8 @@
 %endif
 
 Name:       python-%{srcname}
-Version:    1.5
-Release:    2%{?dist}
+Version:    1.6
+Release:    1%{?dist}
 Summary:    Dictionary with Jinja2 expansion
 
 License:    GPL-2.0-or-later
@@ -76,6 +76,12 @@ version=%version %py3_install
 %endif
 
 %changelog
+* Mon Jun 09 2025 Miroslav Suchý <msuchy@redhat.com> 1.6-1
+- remove license classifier from setup.py
+- modernize python macros
+- update license to SPDX in README
+- update license to SPDX in setup.py too
+
 * Mon Jun 09 2025 msuchy <msuchy@redhat.com> - 1.5-2
 - move to pyproject macros
 
